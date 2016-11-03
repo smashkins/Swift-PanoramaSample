@@ -11,10 +11,11 @@ class ViewController: GLKViewController {
         panoramaView.initialize()
         
         panoramaView.setImage(#imageLiteral(resourceName: "park_2048"))
-        panoramaView.touchToPan = true          // Use touch input to pan
-        panoramaView.orientToDevice = false     // Use motion sensors to pan
-        panoramaView.pinchToZoom = true         // Use pinch gesture to zoom
-        panoramaView.showTouches = true         // Show touches
+        panoramaView.touchToPan = false          // Use touch input to pan
+        panoramaView.orientToDevice = true     // Use motion sensors to pan
+        panoramaView.pinchToZoom = false         // Use pinch gesture to zoom
+        panoramaView.showTouches = false         // Show touches
+        panoramaView.vrMode = true
     }
     
     override func glkView(_ view: GLKView, drawIn rect: CGRect) {

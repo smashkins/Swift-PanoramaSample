@@ -69,6 +69,9 @@
 
 /*  projection & touches  */
 
+/// Split screen mode for use in VR headsets
+@property (nonatomic) BOOL VRMode;
+
 
 @property (nonatomic, readonly) NSSet *touches;
 

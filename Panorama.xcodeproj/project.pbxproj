@@ -10,7 +10,6 @@
 		53665B801CE61725005EC1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53665B7F1CE61725005EC1DC /* AppDelegate.swift */; };
 		53665B821CE61725005EC1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53665B811CE61725005EC1DC /* ViewController.swift */; };
 		53665B851CE61725005EC1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53665B831CE61725005EC1DC /* Main.storyboard */; };
-		53665B871CE61725005EC1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53665B861CE61725005EC1DC /* Assets.xcassets */; };
 		53665B8A1CE61725005EC1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53665B881CE61725005EC1DC /* LaunchScreen.storyboard */; };
 		53665B961CE61799005EC1DC /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53665B951CE61799005EC1DC /* PanoramaView.m */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		53665B7F1CE61725005EC1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53665B811CE61725005EC1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53665B841CE61725005EC1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53665B861CE61725005EC1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53665B891CE61725005EC1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53665B8B1CE61725005EC1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53665B901CE61772005EC1DC /* SwiftPanorama-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPanorama-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -49,7 +47,6 @@
 				53665B7F1CE61725005EC1DC /* AppDelegate.swift */,
 				53665B811CE61725005EC1DC /* ViewController.swift */,
 				53665B831CE61725005EC1DC /* Main.storyboard */,
-				53665B861CE61725005EC1DC /* Assets.xcassets */,
 				53665B881CE61725005EC1DC /* LaunchScreen.storyboard */,
 				53665B8B1CE61725005EC1DC /* Info.plist */,
 				53665B901CE61772005EC1DC /* SwiftPanorama-Bridging-Header.h */,
@@ -115,7 +112,9 @@
 				TargetAttributes = {
 					53665B7C1CE61725005EC1DC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D9NT7AYMPR;
 						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -143,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				53665B8A1CE61725005EC1DC /* LaunchScreen.storyboard in Resources */,
-				53665B871CE61725005EC1DC /* Assets.xcassets in Resources */,
 				53665B851CE61725005EC1DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,8 +188,9 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D9NT7AYMPR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,9 +215,10 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D9NT7AYMPR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
